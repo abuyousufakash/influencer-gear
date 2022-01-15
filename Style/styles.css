@@ -5,6 +5,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color:rgb(243, 240, 235) ;
+    align-items: center;
 }
 main{
     display: flex;
@@ -18,6 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 60px;
 }
 nav a {
     text-decoration: none;
