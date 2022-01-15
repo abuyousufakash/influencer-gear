@@ -1,5 +1,8 @@
+/* body start  */
+body{
+    background-color: white;
+}
 /* header start  */
-
 header {
     display: flex;
     justify-content: space-between;
@@ -11,3 +14,26 @@ nav a {
     font-size: 1em;
     margin-right: 15px;
 }
+/* header end  */
+
+/* menu start  */
+/* section-1 start  */
+.container{
+    display: flex;
+}
+.influencer-body{
+    width: 582px;
+    height: 270px;
+}
+button{
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    border-radius: 41px;
+    padding: 10px 24px;
+}
+.camera-img img{
+    width: 440px;
+    height: 260px;
+}
+/* section-1 end  */
+
