@@ -51,7 +51,7 @@ button{
         border: 1px solid #D1D1D1;
         margin-bottom: 27px;
 }
-/* collection start  */
+/* popular collection start  */
 .section-title{
     font-size: 24px;
 }
@@ -79,17 +79,21 @@ button{
 .fa-star.empty{
     color: #AEAEAE;
 }
+ /*popular collection end */
 
+ /* see button start  */
 .see-button{
     text-decoration: none;
     color: #E02C6D;
     margin-left: 900px;
 }
+    /* see button end  */
 /* menu end  */
 
 /* footer start  */
 footer{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.822);
     color: white;
     text-align: center;
 }
+/* footer end  */
