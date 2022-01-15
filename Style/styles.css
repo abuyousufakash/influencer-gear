@@ -1,0 +1,13 @@
+/* header start  */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin-right: 15px;
+}
