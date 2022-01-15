@@ -48,8 +48,8 @@ button{
 }
 /* influencer end  */
     hr{
-        border: 1px solid #D1D1D1;
-        margin-bottom: 27px;
+        width: 1000px;
+        margin-bottom: 35px;
 }
 /* popular collection start  */
 .section-title{
@@ -89,6 +89,18 @@ button{
 }
     /* see button end  */
 /* menu end  */
+
+/* influence end start  */
+
+.influence-end{
+    margin-left: 80px;
+}
+.influence-end-img img{
+    width: 450px;
+    height: 180px;
+    margin-right: 110px;
+}
+ /* influence-end end  */
 
 /* footer start  */
 footer{
