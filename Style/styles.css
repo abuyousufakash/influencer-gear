@@ -125,7 +125,7 @@ Media Queries ......
     .collections{
         grid-template-columns: repeat(1, 1fr);
     }
-    .influencer-body, .camera-img, .influence-end, .influence-end-img{
+    .collection{
         flex-direction: column;
     }  
 }
@@ -139,4 +139,11 @@ Media Queries ......
     .collections{
         grid-template-columns: repeat(2, 1fr);
     }
+    .collection{
+        flex-direction: column;
+    }
 }
+
+/* ..................
+Media Queries ......
+....................*/
