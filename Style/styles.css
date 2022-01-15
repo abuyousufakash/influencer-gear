@@ -1,7 +1,18 @@
-/* body start  */
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles or utilities */
 body{
-    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(243, 240, 235) ;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* header start  */
 header {
     display: flex;
@@ -17,7 +28,7 @@ nav a {
 /* header end  */
 
 /* menu start  */
-/* section-1 start  */
+/* influencer start  */
 .container{
     display: flex;
 }
@@ -35,5 +46,49 @@ button{
     width: 440px;
     height: 260px;
 }
-/* section-1 end  */
+/* influencer end  */
+    hr{
+        border: 1px solid #D1D1D1;
+        margin-bottom: 27px;
+}
+/* collection start  */
+.section-title{
+    font-size: 24px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 100px;
+}
+.collection{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.collection .collection-banner img{
+    width: 224px;
+    height: 104px;
+    padding: 5px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
 
+.see-button{
+    text-decoration: none;
+    color: #E02C6D;
+}
+/* menu end  */
+
+/* footer start  */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
