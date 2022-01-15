@@ -111,3 +111,32 @@ footer{
     text-align: center;
 }
 /* footer end  */
+
+/* ..................
+Media Queries ......
+....................*/
+
+/* Mobile Devices */
+
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .collections{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .influencer-body, .camera-img, .influence-end, .influence-end-img{
+        flex-direction: column;
+    }  
+}
+
+/* tablet devices */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .collections{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
